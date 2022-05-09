@@ -24,7 +24,7 @@ $url = "http://api.test/index.php/api/exportpdf";
     }
     curl_close($ch);
     $result = json_decode($result, true);
-    var_dump($result);
+    // var_dump($result);
 // die();
     return $result;
 
